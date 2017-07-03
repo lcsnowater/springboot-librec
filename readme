@@ -3,6 +3,9 @@
 具体使用哪个测试文件在/recommender/src/main/resources/librec-default.properties 中配置。
 测试路径如下：
 根据用户推荐商品：http://localhost:8090/recommended/userBased?userId=1
+
 根据商品推荐用户：http://localhost:8090/recommended/itemBased?itemId=70
 
 以后会实现读取jdbc方式数据
+
+
